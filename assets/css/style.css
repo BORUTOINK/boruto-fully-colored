@@ -1,51 +1,21 @@
-/* General site styling */
 body {
-  background-color: #000;
-  color: #fff;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
-/* Logo & shuriken */
-#logo {
-  width: 200px;
-  margin: 20px auto;
-  display: block;
-}
 #shuriken {
-  width: 50px;
+  width: 80px; /* adjust size */
+  cursor: pointer;
+  display: block;
   margin: 10px auto;
-  display: block;
-  transition: transform 0.6s linear;
 }
+
 .spin {
-  transform: rotate(720deg);
+  animation: spin 0.8s linear;
 }
 
-/* Video embeds */
-iframe {
-  width: 90%;
-  height: 300px;
-  margin: 20px auto;
-  border: none;
-  border-radius: 10px;
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
-
-/* Chapters grid */
-.chapter {
-  display: inline-block;
-  margin: 15px;
-  text-align: center;
-}
-.chapter img {
-  width: 200px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-}
-.chapter span {
-  display: block;
-  margin-top: 5px;
-  font-weight: bold;
-  }
