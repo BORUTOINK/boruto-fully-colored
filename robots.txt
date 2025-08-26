@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://borutoink.github.io/boruto-fully-colored/sitemap.xml
