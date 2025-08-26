@@ -1,17 +1,14 @@
-// Spin shuriken when page loads
-window.addEventListener("load", () => {
-  let shuriken = document.getElementById("shuriken");
+document.addEventListener("DOMContentLoaded", () => {
+  const shuriken = document.getElementById("shuriken");
+
   if (shuriken) {
-    shuriken.classList.add("spin");
-    setTimeout(() => shuriken.classList.remove("spin"), 600);
+    shuriken.addEventListener("click", () => {
+      shuriken.classList.add("spin");
+
+      // Remove spin class after animation ends so it can spin again
+      shuriken.addEventListener("animationend", () => {
+        shuriken.classList.remove("spin");
+      }, { once: true });
+    });
   }
 });
-
-// Spin again on click
-function spinShuriken() {
-  let shuriken = document.getElementById("shuriken");
-  if (shuriken) {
-    shuriken.classList.add("spin");
-    setTimeout(() => shuriken.classList.remove("spin"), 600);
-  }
-}
