@@ -1,5 +1,4 @@
-/* style.css */
-/* Reset basic styles */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +7,7 @@
 
 /* Body */
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
   background-color: #000; /* Black background */
   color: #fff; /* White text */
   text-align: center;
@@ -42,7 +41,7 @@ main {
 main h2 {
   margin-bottom: 15px;
   font-size: 28px;
-  color: #FFD700; /* Gold title for style */
+  color: #FFD700; /* Gold title */
 }
 main ul {
   list-style: none;
@@ -55,11 +54,42 @@ main ul li {
   justify-content: center;
 }
 main ul li img {
-  width: 80px;
+  width: 100px;
   height: auto;
   margin-right: 10px;
   border-radius: 5px;
   border: 2px solid #fff;
+}
+
+/* Comments */
+.comments {
+  margin: 40px auto;
+  max-width: 600px;
+}
+.comments h2 {
+  margin-bottom: 10px;
+  color: #FFD700;
+}
+.comments textarea {
+  width: 100%;
+  height: 100px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  padding: 10px;
+  font-size: 16px;
+}
+.comments button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #FFD700;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+}
+.comments button:hover {
+  background: #e6c200;
 }
 
 /* Footer */
@@ -73,4 +103,4 @@ footer a {
 }
 footer a:hover {
   text-decoration: underline;
-    }
+  }
