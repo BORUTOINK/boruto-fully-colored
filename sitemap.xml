@@ -4,47 +4,61 @@
   <!-- Homepage -->
   <url>
     <loc>https://borutoink.github.io/boruto-fully-colored/</loc>
+    <priority>1.0</priority>
   </url>
 
   <!-- Chapters -->
   <url>
-    <loc>https://borutoink.github.io/boruto-fully-colored/chapter68.html</loc>
+    <loc>https://borutoink.github.io/boruto-fully-colored/chapters/chapter-68.html</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://borutoink.github.io/boruto-fully-colored/chapter69.html</loc>
+    <loc>https://borutoink.github.io/boruto-fully-colored/chapters/chapter-69.html</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://borutoink.github.io/boruto-fully-colored/chapter70.html</loc>
+    <loc>https://borutoink.github.io/boruto-fully-colored/chapters/chapter-70.html</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://borutoink.github.io/boruto-fully-colored/chapter71.html</loc>
+    <loc>https://borutoink.github.io/boruto-fully-colored/chapters/chapter-71.html</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://borutoink.github.io/boruto-fully-colored/chapter72.html</loc>
+    <loc>https://borutoink.github.io/boruto-fully-colored/chapters/chapter-72.html</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://borutoink.github.io/boruto-fully-colored/chapter73.html</loc>
+    <loc>https://borutoink.github.io/boruto-fully-colored/chapters/chapter-73.html</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://borutoink.github.io/boruto-fully-colored/chapter74.html</loc>
+    <loc>https://borutoink.github.io/boruto-fully-colored/chapters/chapter-74.html</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://borutoink.github.io/boruto-fully-colored/chapter75.html</loc>
+    <loc>https://borutoink.github.io/boruto-fully-colored/chapters/chapter-75.html</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://borutoink.github.io/boruto-fully-colored/chapter76.html</loc>
+    <loc>https://borutoink.github.io/boruto-fully-colored/chapters/chapter-76.html</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://borutoink.github.io/boruto-fully-colored/chapter77.html</loc>
+    <loc>https://borutoink.github.io/boruto-fully-colored/chapters/chapter-77.html</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://borutoink.github.io/boruto-fully-colored/chapter78.html</loc>
+    <loc>https://borutoink.github.io/boruto-fully-colored/chapters/chapter-78.html</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://borutoink.github.io/boruto-fully-colored/chapter79.html</loc>
+    <loc>https://borutoink.github.io/boruto-fully-colored/chapters/chapter-79.html</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://borutoink.github.io/boruto-fully-colored/chapter80.html</loc>
+    <loc>https://borutoink.github.io/boruto-fully-colored/chapters/chapter-80.html</loc>
+    <priority>0.8</priority>
   </url>
 
 </urlset>
