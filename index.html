@@ -4,62 +4,97 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Boruto Fully Colored</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <!-- Favicon (same as logo) -->
   <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header img {
+      max-width: 300px;
+      margin: 20px auto;
+      display: block;
+    }
+    section {
+      margin: 40px auto;
+      max-width: 900px;
+    }
+    .chapter-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .chapter-card {
+      background: #1a1a1a;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    }
+    iframe {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      margin: 40px 0;
+    }
+    a {
+      color: #1da1f2;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
 
   <!-- Logo -->
   <header>
-    <img src="assets/images/logo.png" alt="Boruto Fully Colored Logo" id="logo">
+    <img src="assets/images/logo.png" alt="Boruto Fully Colored Logo">
   </header>
 
-  <!-- Video section -->
-  <section class="video-section">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/nQeIObeB--8" 
-      title="Boruto Anime Intro" frameborder="0" allowfullscreen></iframe>
-  </section>
-  <section class="video-section">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/CrVB1kQNxgk" 
-      title="Boruto Omnipotence Arc" frameborder="0" allowfullscreen></iframe>
+  <!-- Videos -->
+  <section>
+    <h2>Featured Videos</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nQeIObeB--8" frameborder="0" allowfullscreen></iframe>
+    <br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CrVB1kQNxgk" frameborder="0" allowfullscreen></iframe>
   </section>
 
   <!-- Chapters -->
-  <main>
+  <section>
     <h2>Chapters</h2>
-    <ul>
-      <li><img src="assets/images/coming-soon.png" alt="Chapter 1"> Chapter 1</li>
-      <li><img src="assets/images/coming-soon.png" alt="Chapter 2"> Chapter 2</li>
-      <li><img src="assets/images/coming-soon.png" alt="Chapter 3"> Chapter 3</li>
-      <li><img src="assets/images/coming-soon.png" alt="Chapter 4"> Chapter 4</li>
-      <li><img src="assets/images/coming-soon.png" alt="Chapter 5"> Chapter 5</li>
-      <li><img src="assets/images/coming-soon.png" alt="Chapter 6"> Chapter 6</li>
-      <li><img src="assets/images/coming-soon.png" alt="Chapter 7"> Chapter 7</li>
-      <li><img src="assets/images/coming-soon.png" alt="Chapter 8"> Chapter 8</li>
-      <li><img src="assets/images/coming-soon.png" alt="Chapter 9"> Chapter 9</li>
-      <li><img src="assets/images/coming-soon.png" alt="Chapter 10"> Chapter 10</li>
-      <li><img src="assets/images/coming-soon.png" alt="Chapter 11"> Chapter 11</li>
-      <li><img src="assets/images/coming-soon.png" alt="Chapter 12"> Chapter 12</li>
-    </ul>
-  </main>
+    <div class="chapter-grid">
+      <div class="chapter-card">Chapter 1<br><em>Coming Soon</em></div>
+      <div class="chapter-card">Chapter 2<br><em>Coming Soon</em></div>
+      <div class="chapter-card">Chapter 3<br><em>Coming Soon</em></div>
+      <div class="chapter-card">Chapter 4<br><em>Coming Soon</em></div>
+      <div class="chapter-card">Chapter 5<br><em>Coming Soon</em></div>
+      <div class="chapter-card">Chapter 6<br><em>Coming Soon</em></div>
+      <div class="chapter-card">Chapter 7<br><em>Coming Soon</em></div>
+      <div class="chapter-card">Chapter 8<br><em>Coming Soon</em></div>
+      <div class="chapter-card">Chapter 9<br><em>Coming Soon</em></div>
+      <div class="chapter-card">Chapter 10<br><em>Coming Soon</em></div>
+      <div class="chapter-card">Chapter 11<br><em>Coming Soon</em></div>
+      <div class="chapter-card">Chapter 12<br><em>Coming Soon</em></div>
+    </div>
+  </section>
 
   <!-- Comments -->
   <section class="comments">
     <h2>Leave Your Feedback</h2>
-    <textarea placeholder="Write your comment here..."></textarea>
-    <br>
-    <button>Submit</button>
+    <!-- Replace FORM_ID with your real Google Form link -->
+    <iframe src="https://docs.google.com/forms/d/e/FORM_ID/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>Follow me on 
-      <a href="https://x.com/BORUTOINK?t=FOaVdidor86Zt1nhAFuxkA&s=09" target="_blank">
-        Twitter/X
-      </a>
-    </p>
+    <p>Follow me on <a href="https://x.com/BORUTOINK?t=FOaVdidor86Zt1nhAFuxkA&s=09" target="_blank">X (Twitter)</a></p>
+    <p>&copy; 2025 Boruto Fully Colored</p>
   </footer>
 
 </body>
-            </html>
+</html>
