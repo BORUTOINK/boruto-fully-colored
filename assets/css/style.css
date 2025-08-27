@@ -103,3 +103,9 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+.chapter-pages img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  }
